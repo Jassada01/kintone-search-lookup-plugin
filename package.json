@@ -1,0 +1,40 @@
+{
+  "name": "kintone-plugin-master",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+  "init": "node ./scripts/init.js",
+  "upload": "node ./scripts/upload.js",
+  "build:prod": "node ./scripts/build-prod.js",
+  "build:dev": "node ./scripts/build-dev.js"
+  },
+  "keywords": [
+    "kintone"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yanoshi-1009/kintone-plugin-template"
+  },
+  "author": "y.idakko@gmail.com",
+  "license": "MIT",
+  "engines": {
+    "node": "18.x || 20.x || 22.x || 24.x"
+  },
+  "description": "This is kintone plugin template.",
+  "devDependencies": {
+    "@cybozu/eslint-config": "^24.3.0",
+    "@kintone/dts-gen": "^9.0.0",
+    "@kintone/plugin-packer": "^9.0.0",
+    "@kintone/plugin-uploader": "^10.0.0",
+    "esbuild": "^0.25.12",
+    "eslint": "^9.39.0",
+    "prettier": "^3.6.2",
+    "typescript": "^5.9.3"
+  },
+  "dependencies": {
+    "@kintone/rest-api-client": "^6.0.0",
+    "dayjs": "^1.11.19",
+    "i18next": "^25.6.0",
+    "kintone-ui-component": "^1.23.0"
+  }
+}
