@@ -16,17 +16,17 @@
     "en": "https://www.kintone.com/en-us/"
   },
   "desktop": {
-    "js": ["dist/appPage/desktop/desktop.js"],
-    "css": ["dist/appPage/desktop/desktop.css"]
+    "js": ["https://127.0.0.1:9000/appPage/desktop/desktop.js"],
+    "css": ["https://127.0.0.1:9000/appPage/desktop/desktop.css"]
   },
   "mobile": {
-    "js": ["dist/appPage/mobile/mobile.js"],
-    "css": ["dist/appPage/mobile/mobile.css"]
+    "js": ["https://127.0.0.1:9000/appPage/mobile/mobile.js"],
+    "css": ["https://127.0.0.1:9000/appPage/mobile/mobile.css"]
   },
   "config": {
     "html": "src/configPage/config.html",
-    "js": ["dist/configPage/config.js"],
-    "css": ["dist/configPage/config.css"],
+    "js": ["https://127.0.0.1:9000/configPage/config.js"],
+    "css": ["https://127.0.0.1:9000/configPage/config.css"],
     "required_params": []
   }
 }
